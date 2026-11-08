@@ -1,0 +1,31 @@
+# .syncignore - Files and patterns to exclude from Classroom repo sync
+
+# Solution branches and directories
+solution/
+solution.*
+*-solution.*
+**/solution/**
+
+# Secrets and sensitive files
+.env
+.env.*
+*.secret
+*.key
+secrets/
+**/.secrets/**
+
+# IDE and editor files (optional - adjust as needed)
+.idea/
+.vscode/settings.json
+.vscode/launch.json
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Test results and build artifacts
+test-results/
+playwright-report/
+node_modules/
+dist/
+*.log
